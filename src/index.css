@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-red: #DC1C2E;
+  --primary-blue: #002D72;
+  --primary-white: #FFFFFF;
+  --primary-silver: #A7A8AA;
+  --primary-black: #000000;
+  
+  --ui-background: #FFFFFF;
+  --ui-card: #F8F9FA;
+  --ui-border: #E9ECEF;
+  --ui-hover: #F1F3F5;
+  --ui-focus: #E9ECEF;
+  
+  --text-primary: #212529;
+  --text-secondary: #495057;
+  --text-muted: #6C757D;
+  --text-light: #ADB5BD;
+  --text-white: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--ui-background);
+  color: var(--text-primary);
+}
+
+/* Add any additional global styles here */
